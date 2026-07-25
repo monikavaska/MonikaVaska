@@ -2,13 +2,13 @@
    Design tokens — clean, corporate
    ============================================================ */
 :root {
-  --bg:        #FFFFFF;
-  --surface:   #F5F6F8;
-  --ink:       #1B222C;
-  --muted:     #5A6472;
-  --accent:    #2C5F7C;
-  --accent-soft: #E8EFF3;
-  --border:    #E1E4E9;
+  --bg:        #FAF7EF;
+  --surface:   #F1ECDD;
+  --ink:       #16140F;
+  --muted:     #5C5748;
+  --accent:    #F2B705;
+  --accent-soft: #FCEBB0;
+  --border:    #E4DCC5;
   --radius:    6px;
 
   --font-display: 'Libre Franklin', Arial, sans-serif;
@@ -60,23 +60,22 @@ h2 { font-size: 26px; font-weight: 600; margin-bottom: 28px; }
    ============================================================ */
 nav {
   position: sticky; top: 0; z-index: 10;
-  background: rgba(255,255,255,0.94);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--border);
+  background: var(--ink);
+  border-bottom: 1px solid var(--ink);
 }
 nav .wrap { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; }
 .nav-brand {
   display: flex; align-items: center; justify-content: center;
   width: 36px; height: 36px;
   background: var(--accent);
-  color: #fff;
+  color: var(--ink);
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 14px;
   border-radius: 50%;
 }
 .nav-links { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; }
-.nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; }
+.nav-links a { color: #EDE7D6; font-size: 14px; font-weight: 500; }
 .nav-links a:hover { color: var(--accent); text-decoration: none; }
 
 /* ============================================================
@@ -95,10 +94,10 @@ nav .wrap { display: flex; align-items: center; justify-content: space-between; 
   font-weight: 600;
   font-size: 14px;
 }
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { background: #234a63; text-decoration: none; }
+.btn-primary { background: var(--accent); color: var(--ink); }
+.btn-primary:hover { background: #D9A400; text-decoration: none; }
 .btn-secondary { background: var(--surface); color: var(--ink); border: 1px solid var(--border); }
-.btn-secondary:hover { background: #ECEEF1; text-decoration: none; }
+.btn-secondary:hover { background: #E9E2CC; text-decoration: none; }
 
 /* ============================================================
    About
@@ -162,8 +161,8 @@ nav .wrap { display: flex; align-items: center; justify-content: space-between; 
    Contact
    ============================================================ */
 .contact-card {
-  background: var(--accent);
-  color: #fff;
+  background: var(--ink);
+  color: #EDE7D6;
   border-radius: var(--radius);
   padding: 36px;
   display: flex;
@@ -173,9 +172,9 @@ nav .wrap { display: flex; align-items: center; justify-content: space-between; 
   gap: 20px;
 }
 .contact-card h3 { color: #fff; font-size: 22px; margin-bottom: 6px; }
-.contact-card p { margin: 0; color: #DCE7EE; font-size: 15px; }
-.contact-card .btn-secondary { background: #fff; color: var(--accent); border: none; }
-.contact-card .btn-secondary:hover { background: #EEF3F6; }
+.contact-card p { margin: 0; color: #C9C3B0; font-size: 15px; }
+.contact-card .btn-secondary { background: var(--accent); color: var(--ink); border: none; }
+.contact-card .btn-secondary:hover { background: #D9A400; }
 
 footer {
   padding: 28px 0 44px;
