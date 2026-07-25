@@ -92,7 +92,7 @@ nav .wrap { display: flex; align-items: center; justify-content: space-between; 
 .nav-toggle span {
   display: block;
   width: 22px; height: 2px;
-  background: #EDE7D6;
+  background: #F2B705;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
